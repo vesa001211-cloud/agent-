@@ -4,9 +4,10 @@ A Python-first, offline AI companion designed to communicate naturally, maintain
 
 ## Status
 
-- **Planning:** Phase 1 and Stages 2–10 are documented.
-- **Implementation:** not started yet.
-- **Target-device model test:** pending the user's actual hardware and measurements.
+- **Planning:** Stages 1–10 documented.
+- **Foundation implementation:** Stages 11–20 completed.
+- **Current entry point:** `agent.py`.
+- **Target-device model test:** still required for hardware-specific validation.
 
 ## Design documents
 
@@ -22,6 +23,16 @@ A Python-first, offline AI companion designed to communicate naturally, maintain
 | 8 | [STAGE_08_MODEL_SELECTION.md](STAGE_08_MODEL_SELECTION.md) | Initial model candidate and alternatives |
 | 9 | [STAGE_09_FEASIBILITY_TEST.md](STAGE_09_FEASIBILITY_TEST.md) | Repeatable local test protocol; device results pending |
 | 10 | [STAGE_10_SUCCESS_CRITERIA.md](STAGE_10_SUCCESS_CRITERIA.md) | Planning/prototype exit gates and acceptance metrics |
+| 11 | [STAGE_11_REPOSITORY_SETUP.md](STAGE_11_REPOSITORY_SETUP.md) | Repository and source-control baseline |
+| 12 | `agent.py` | Single-file application scaffold and core entry point |
+| 13 | [STAGE_13_CONFIGURATION.md](STAGE_13_CONFIGURATION.md) | Runtime configuration |
+| 14 | [STAGE_14_INTERNAL_STRUCTURE.md](STAGE_14_INTERNAL_STRUCTURE.md) | Logical sections inside the single source file |
+| 15 | [STAGE_15_RUNTIME.md](STAGE_15_RUNTIME.md) | Application initialization and lifecycle |
+| 16 | [STAGE_16_CLI.md](STAGE_16_CLI.md) | Local terminal interface |
+| 17 | [STAGE_17_ERROR_HANDLING.md](STAGE_17_ERROR_HANDLING.md) | Failure behavior and no-cloud fallback rule |
+| 18 | [STAGE_18_LOGGING.md](STAGE_18_LOGGING.md) | Privacy-conscious diagnostics |
+| 19 | [STAGE_19_STATE.md](STAGE_19_STATE.md) | Runtime and persistent state model |
+| 20 | [STAGE_20_FIRST_RUN.md](STAGE_20_FIRST_RUN.md) | End-to-end first-run contract |
 
 ## Principles
 
